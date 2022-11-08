@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# EPL.00.250.NTN
+#
+DEF EPL.00.250.NTN X 0 40 N Y 1 L N
+F0 "X" -100 118 50 H V L BNN
+F1 "EPL.00.250.NTN" -100 -200 50 H V L BNN
+F2 "EPL.00.250.NTN" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "EPL.00.250.NTN" 0 0 50 H I L BNN "MPN"
+F5 "3817866" 0 0 50 H I L BNN "OC_FARNELL"
+F6 "25R7486" 0 0 50 H I L BNN "OC_NEWARK"
+F7 "" 0 0 50 H I L BNN "MF"
+DRAW
+S -100 -100 100 100 0 0 10 f
+X 1 1 -200 0 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

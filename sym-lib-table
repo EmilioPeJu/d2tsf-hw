@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "SN74LVC8T245PWR")(type "KiCad")(uri "${KIPRJMOD}/symbols/SN74LVC8T245PWR.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX3232ESE")(type "KiCad")(uri "${KIPRJMOD}/symbols/MAX3232ESE.kicad_sym")(options "")(descr ""))
+  (lib (name "EPL.00.250.NTN")(type "KiCad")(uri "${KIPRJMOD}/symbols/EPL.00.250.NTN.kicad_sym")(options "")(descr ""))
+)
