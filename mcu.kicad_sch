@@ -612,6 +612,7 @@
     )
   )
 
+
   (junction (at 148.59 68.58) (diameter 0) (color 0 0 0 0)
     (uuid 005d3bc8-59a4-4b03-bba2-901c9c419ceb)
   )
@@ -1161,7 +1162,7 @@
     (property "Reference" "C11" (id 0) (at 179.07 55.8799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10p" (id 1) (at 179.07 58.4199 0)
+    (property "Value" "10n" (id 1) (at 179.07 58.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 173.99 57.15 0)

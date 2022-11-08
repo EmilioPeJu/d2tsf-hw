@@ -331,6 +331,9 @@
     (path "/89820144-97f0-4a6f-b2bf-8fe5a8e81e3a/f9c1f2ba-dfde-4e55-9af7-cd73bc2d8371"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
+    (path "/89820144-97f0-4a6f-b2bf-8fe5a8e81e3a/3da3fcfb-3e37-48a3-8611-329a9a6c325a"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
     (path "/e2ddbd7d-5240-4293-bf7a-43edac9758f3/42dc89a2-1958-4742-a7c0-064ecd9a57e6"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -466,6 +469,9 @@
     (path "/e0bbe7cb-45f1-406a-886d-5882d5c8ccd4/947407cc-e475-4e47-b96f-79f3aedf3846"
       (reference "#PWR0145") (unit 1) (value "GND") (footprint "")
     )
+    (path "/89820144-97f0-4a6f-b2bf-8fe5a8e81e3a/8b57ef09-076e-42e8-9486-cf00fe0a4a3d"
+      (reference "#PWR0146") (unit 1) (value "GND") (footprint "")
+    )
     (path "/e2ddbd7d-5240-4293-bf7a-43edac9758f3/1aef851d-8daa-4721-8b56-d854e31d25aa"
       (reference "#PWR0148") (unit 1) (value "+5V") (footprint "")
     )
@@ -503,7 +509,7 @@
       (reference "C10") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/4599b9f4-0655-4d04-9040-012316a23bc9/69ca2e94-b7c1-458e-a892-8d41154b87a6"
-      (reference "C11") (unit 1) (value "10p") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C11") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/4599b9f4-0655-4d04-9040-012316a23bc9/20ad6229-41e1-43c7-8e3c-9b287e257b46"
       (reference "C12") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -562,8 +568,14 @@
     (path "/e2ddbd7d-5240-4293-bf7a-43edac9758f3/7cc55793-6607-43f9-ba19-b66117118243"
       (reference "C30") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
+    (path "/89820144-97f0-4a6f-b2bf-8fe5a8e81e3a/581b56b8-5302-4787-b9d1-c82f9f5f6a84"
+      (reference "C31") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
     (path "/e2ddbd7d-5240-4293-bf7a-43edac9758f3/ca13b14c-ead5-42e9-9221-4c29bce178d5"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm")
+    )
+    (path "/89820144-97f0-4a6f-b2bf-8fe5a8e81e3a/a7de8fb8-483e-4fe1-a86d-19199d8267c0"
+      (reference "FB1") (unit 1) (value "33uH") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/89820144-97f0-4a6f-b2bf-8fe5a8e81e3a/61d179d7-03b3-42be-a3cb-998395d9416f"
       (reference "H1") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3")
@@ -616,8 +628,8 @@
     (path "/89820144-97f0-4a6f-b2bf-8fe5a8e81e3a/001fad52-e54d-49b8-8f8a-3fd237d9493f"
       (reference "J15") (unit 1) (value "TX Out") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
-    (path "/89820144-97f0-4a6f-b2bf-8fe5a8e81e3a/84f9ba6f-77be-4693-88a8-a70c5bf0e0ab"
-      (reference "J16") (unit 1) (value "Port B") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+    (path "/89820144-97f0-4a6f-b2bf-8fe5a8e81e3a/bf957a7e-39f3-488f-ae47-889ffb411c80"
+      (reference "J16") (unit 1) (value "Conn_01x09_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical")
     )
     (path "/e2ddbd7d-5240-4293-bf7a-43edac9758f3/da95fbd0-0fe4-4ff2-a556-8be8afa3dde4"
       (reference "R1") (unit 1) (value "560") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -627,6 +639,18 @@
     )
     (path "/e0bbe7cb-45f1-406a-886d-5882d5c8ccd4/c6a52cd6-b196-407f-9da7-e2bb5fdc841b"
       (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/e0bbe7cb-45f1-406a-886d-5882d5c8ccd4/af6c9ab8-77c1-4115-960b-f345588b47d2"
+      (reference "TP1") (unit 1) (value "SHIFT0") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/e0bbe7cb-45f1-406a-886d-5882d5c8ccd4/60fbcc9d-07d7-4c1b-8a48-b1c2212f4285"
+      (reference "TP2") (unit 1) (value "SHIFT1") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/e0bbe7cb-45f1-406a-886d-5882d5c8ccd4/bba993cc-45ca-419b-a060-d3aaa443b2a6"
+      (reference "TP3") (unit 1) (value "PPS") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/e0bbe7cb-45f1-406a-886d-5882d5c8ccd4/1e07160e-87e7-4d99-9724-4a3c454d7103"
+      (reference "TP4") (unit 1) (value "1MHZ") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/e2ddbd7d-5240-4293-bf7a-43edac9758f3/77499c86-6e50-49a8-9674-4921cb8fb623"
       (reference "U1") (unit 1) (value "AMS1117") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
