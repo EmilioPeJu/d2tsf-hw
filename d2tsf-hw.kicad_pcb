@@ -5895,7 +5895,7 @@
   (gr_text "ACS" (at 158.5 122.6) (layer "F.SilkS") (tstamp 02cb624a-9688-4bcc-bd6f-88b9b5d45d1b)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "1" (at 133.8 94.2) (layer "F.SilkS") (tstamp 15a6bc7b-3595-4506-b750-26d5f3bedbc9)
+  (gr_text "1" (at 133.5 96.6) (layer "F.SilkS") (tstamp 15a6bc7b-3595-4506-b750-26d5f3bedbc9)
     (effects (font (size 1 1) (thickness 0.25)))
   )
   (gr_text "5V" (at 106.1 88.7) (layer "F.SilkS") (tstamp 35094542-b471-4cbb-a929-82de4ba3aeec)
