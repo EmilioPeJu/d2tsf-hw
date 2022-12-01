@@ -7,7 +7,7 @@
   (title_block
     (title "D2TSF")
     (date "2022-10-27")
-    (rev "Rev0")
+    (rev "Rev1")
     (company "Diamond Light Source")
   )
 
@@ -573,9 +573,6 @@
     )
     (path "/e2ddbd7d-5240-4293-bf7a-43edac9758f3/ca13b14c-ead5-42e9-9221-4c29bce178d5"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm")
-    )
-    (path "/89820144-97f0-4a6f-b2bf-8fe5a8e81e3a/a7de8fb8-483e-4fe1-a86d-19199d8267c0"
-      (reference "FB1") (unit 1) (value "33uH") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/89820144-97f0-4a6f-b2bf-8fe5a8e81e3a/61d179d7-03b3-42be-a3cb-998395d9416f"
       (reference "H1") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3")
