@@ -9,3 +9,7 @@ The output signals are: PPS, 1MHZ, SHIFT0 and SHITF1
 - With some power supplies, the RCB-F9T can get into an unstable state at start
 time. Somehow, Disconnecting TP2 makes the problem go away. It is possible that
 this issue might be mitigated by using a better voltage regulator.
+
+## TODO
+- Add a high side power switch that delays the power on of 5V until the PSU
+is stable
