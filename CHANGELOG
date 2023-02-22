@@ -1,0 +1,6 @@
+Rev2
+- Fix GPS receiver misbehaviour at start time
+Rev1
+- Fix wrong pinout of SWD interface
+Rev0
+- Initial board design
