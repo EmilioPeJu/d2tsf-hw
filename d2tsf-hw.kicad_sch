@@ -7,8 +7,11 @@
   (title_block
     (title "D2TSF")
     (date "2022-10-27")
-    (rev "Rev2")
-    (company "Diamond Light Source")
+    (rev "B")
+    (company "Diamond Light Source LTD")
+    (comment 1 "DRG No: 1187445")
+    (comment 2 "CHK: AC")
+    (comment 3 "DRN: EPJ")
   )
 
   (lib_symbols
@@ -126,6 +129,26 @@
   (wire (pts (xy 118.11 64.77) (xy 118.11 80.01))
     (stroke (width 0) (type default))
     (uuid f2af0c95-0bf1-4bc2-85be-efc371fd1bba)
+  )
+
+  (rectangle (start 191.77 24.13) (end 276.86 151.13)
+    (stroke (width 0) (type dot))
+    (fill (type none))
+    (uuid 6d7e29e8-6b58-4224-a4e0-a3c2f85b903f)
+  )
+
+  (text "A (0)\n- Initial design" (at 195.58 36.83 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3194c92c-c828-4ba9-a5a3-76da86ecd195)
+  )
+  (text "B\n- Fix wrong SWD wiring\n- Fix GPS receiver boot by adding a buffer (CC's contribution)"
+    (at 195.58 46.99 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 49ee3a83-8214-4179-b95f-ba0c37096221)
+  )
+  (text "REVISIONS" (at 195.58 27.94 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 65fb1159-3b1b-4940-b34c-e20509dde60b)
   )
 
   (sheet (at 49.53 46.99) (size 48.26 27.94) (fields_autoplaced)
